@@ -3,9 +3,9 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "Public_Materials_V5",
-	"Description": "",
+	"Description": "UE公共材质库",
 	"Category": "Rendering",
-	"CreatedBy": "Goldon",
+	"CreatedBy": "Goldon Inc.",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -13,5 +13,19 @@
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": false
+	"Installed": true,
+	"Plugins": [
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "MoviePipelineMaskRenderPass",
+			"Enabled": true
+		},
+		{
+			"Name": "ConsoleVariables",
+			"Enabled": true
+		}
+	]
 }
